@@ -12,42 +12,34 @@
 
     <div id="root"></div>
 
-
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script>
+    <script type="text/babel">
         const root = document.querySelector('#root');
 
-        const p1 = React.createElement(
-            'p', {
-                children: 'hello From p1',
-            });
-
-        const p2 = React.createElement(
-            'p', {
-                children: 'hello From p2',
-            });
-
-        const paragraphWrapper = React.createElement(
-            'div', {
-                children: [p1, p2],
-            });
-
-        const paragraphWrapperDenganFragment = React.createElement(
-            React.Fragment, {
-                children: [p1, p2],
-            });
-
-        const theRealWrapper = React.createElement('ul', {
-                className: 'list'
-            },
-            React.createElement('li', null, 'Orange'),
-            React.createElement('li', null, 'Apple'),
-            React.createElement('li', null, 'Banan')
+        const element1 = (
+            <ul>
+                <li>Banana</li>
+                <li>Apple</li>
+                <li>Durian</li>
+            </ul>
         );
 
+        const name = 'Vinston';
 
-        ReactDOM.render(theRealWrapper, root);
+        const element2 = (
+            <h1>Hai {name}</h1>
+        );
+
+        function uppercase(text) {
+            return text.toUpperCase();
+        }
+
+        const date = (<h1>Date: {new Date().toLocaleDateString()}</h1>);
+        const nameToUpper = (<h1>Name: {uppercase(name)}</h1>);
+
+        ReactDOM.render(nameToUpper, root);
     </script>
 </body>
 
