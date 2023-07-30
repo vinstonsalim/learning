@@ -1,0 +1,19 @@
+{
+    "name": "vinston-salim/php-composer",
+    "description": "Learning Composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vinston Salim",
+            "email": "vinston.salim@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PhpComposer\\": "src/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "3.4.0"
+    }
+}
