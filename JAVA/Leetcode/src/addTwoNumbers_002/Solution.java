@@ -1,4 +1,4 @@
-package addTwoNumber_002;
+package addTwoNumbers_002;
 
 public class Solution {
 
