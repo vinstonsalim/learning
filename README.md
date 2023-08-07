@@ -11,7 +11,7 @@ Until today I have completed the following subjects:
 - [PHP-Simple-MVC](https://github.com/vinstonsalim/learning/tree/main/PHP/php-simple-mvc)
 
 ## [JAVA](https://github.com/vinstonsalim/learning/tree/main/JAVA/)
-- [Leetcode]()
+- [Leetcode](https://github.com/vinstonsalim/learning/tree/main/JAVA/Leetcode)
 - [Software Engineering]()
 
 ## [C#]()
