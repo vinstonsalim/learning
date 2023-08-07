@@ -12,7 +12,7 @@ Until today I have completed the following subjects:
 
 ## [JAVA](https://github.com/vinstonsalim/learning/tree/main/JAVA/)
 - [Leetcode](https://github.com/vinstonsalim/learning/tree/main/JAVA/Leetcode)
-- [Software Engineering]()
+- [Design Patterns](https://github.com/vinstonsalim/learning/tree/main/JAVA/Design-Patterns)
 
 ## [C#]()
 tbd
